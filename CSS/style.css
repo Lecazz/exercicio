@@ -45,6 +45,7 @@ main {
     justify-content: end;
     align-items: center;
     flex-direction: column;
+     padding-bottom: 10px;
 }
 
 .cards {
@@ -59,14 +60,17 @@ main {
     height: 95%;
     border: 3px solid;
     background-color: aqua; 
-    flex-direction : column;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .cards1 {
-    width: 20%;
-    height: 150px;
+    width: 40%;
+    height: 170px;
     background-color: yellow;
     border: 3px solid;
     gap: 10px;
